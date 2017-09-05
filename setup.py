@@ -16,7 +16,8 @@ setup(
     ],
     install_requires=[
         'odooku>=10.0.0,<11.0.0',
-        'graphene==1.4.1'
+        'graphene==1.4.1',
+        'singledispatch==3.4.0.3',
     ],
     classifiers=[
         'Intended Audience :: Developers',
