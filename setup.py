@@ -12,11 +12,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     namespace_packages=[
-        'odooku_addons'
+        'odooku_addons',
+        'odooku_patches'
     ],
     install_requires=[
         'odooku>=10.0.0,<11.0.0',
-        'graphene==1.4.1',
+        'graphene>=2.0.dev',
         'singledispatch==3.4.0.3',
     ],
     classifiers=[
